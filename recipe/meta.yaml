@@ -23,7 +23,7 @@ requirements:
   run:
     - python
     - google-auth
-    - requests-oauthlib >=0.7.0,<1dev
+    - requests-oauthlib >=0.7.0
 
 test:
   imports:
