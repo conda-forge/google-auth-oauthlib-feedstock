@@ -1,6 +1,6 @@
 {% set name = "google-auth-oauthlib" %}
-{% set version = "0.1.0" %}
-{% set sha256 = "8e05ec997a946aed1fa82f7f360d835e4c031f13413962c29b7329cc10b91e5f" %}
+{% set version = "0.2.0" %}
+{% set sha256 = "226d1d0960f86ba5d9efd426a70b291eaba96f47d071657e0254ea969025728a" %}
 
 package:
   name: {{ name|lower }}
@@ -23,7 +23,7 @@ requirements:
   run:
     - python
     - google-auth
-    - requests-oauthlib >=0.7.0,<1dev
+    - requests-oauthlib >=0.7.0
 
 test:
   imports:
