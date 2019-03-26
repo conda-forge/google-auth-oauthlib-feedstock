@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About google-auth-oauthlib
 ==========================
 
@@ -18,8 +14,14 @@ This library provides oauthlib integration with google-auth.
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/google-auth-oauthlib-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/google-auth-oauthlib-feedstock)
+
+<table><tr>
+    <td>All platforms:</td>
+    <td>
+      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -113,7 +115,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@jonparrott](https://github.com/jonparrott/)
+* [@cpcloud](https://github.com/cpcloud/)
 * [@jreback](https://github.com/jreback/)
 * [@parthea](https://github.com/parthea/)
 * [@tswast](https://github.com/tswast/)
