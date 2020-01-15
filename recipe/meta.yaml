@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
 
@@ -31,18 +31,19 @@ test:
     - google_auth_oauthlib
 
 about:
-  home: https://github.com/GoogleCloudPlatform/google-auth-library-python-oauthlib
+  home: https://github.com/googleapis/google-auth-library-python-oauthlib
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
   summary: 'Google Authentication Library, oauthlib integration with google-auth'
   description: This library provides oauthlib integration with google-auth.
   doc_url: http://google-auth-oauthlib.readthedocs.io/en/latest/
-  dev_url: https://github.com/GoogleCloudPlatform/google-auth-library-python-oauthlib
+  dev_url: https://github.com/googleapis/google-auth-library-python-oauthlib
 
 extra:
   recipe-maintainers:
-    - parthea
-    - jreback
-    - tswast
     - cpcloud
+    - jreback
+    - leahecole
+    - parthea
+    - tswast
