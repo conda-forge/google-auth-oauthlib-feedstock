@@ -20,18 +20,18 @@ build:
 
 requirements:
   build:
-    - python
+    - python >=3.6
     - pip
 
   run:
-    - python
+    - python >=3.6
     - google-auth
     - requests-oauthlib >=0.7.0
     - click
 
 test:
   requires:
-    - python
+    - python >=3.6
     - pip
   imports:
     - google_auth_oauthlib
