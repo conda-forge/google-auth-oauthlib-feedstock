@@ -25,9 +25,9 @@ requirements:
 
   run:
     - python >=3.6
-    - google-auth
+    - google-auth >=1.0.0
     - requests-oauthlib >=0.7.0
-    - click
+    - click >=6.0.0
 
 test:
   requires:
