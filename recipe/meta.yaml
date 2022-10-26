@@ -1,6 +1,6 @@
 {% set name = "google-auth-oauthlib" %}
-{% set version = "0.6.0" %}
-{% set sha256 = "d3feb22986b27537fcdc207e7de8b4ee0f19eb0fca2a5cb1a120cb24a89e40e4" %}
+{% set version = "0.7.0" %}
+{% set sha256 = "db11bce4b3effc99b518ec22a2903470e0853c0c92be57694e3684e738d22513" %}
 
 package:
   name: {{ name|lower }}
