@@ -1,11 +1,11 @@
-About google-auth-oauthlib
-==========================
+About google-auth-oauthlib-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-auth-oauthlib-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/googleapis/google-auth-library-python-oauthlib
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-auth-oauthlib-feedstock/blob/main/LICENSE.txt)
 
 Summary: Google Authentication Library, oauthlib integration with google-auth
 
