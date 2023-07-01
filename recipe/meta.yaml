@@ -25,9 +25,9 @@ requirements:
 
   run:
     - python >=3.6
-    - google-auth >=1.0.0
+    - google-auth >=2.15.0
     - requests-oauthlib >=0.7.0
-    - click >=6.0.0
+    - click >=6.0.0  # not shown as depdendency by grayskull
 
 test:
   requires:
