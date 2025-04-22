@@ -1,6 +1,6 @@
 {% set name = "google-auth-oauthlib" %}
-{% set version = "1.2.1" %}
-{% set sha256 = "afd0cad092a2eaa53cd8e8298557d6de1034c6cb4a740500b5357b648af97263" %}
+{% set version = "1.2.2" %}
+{% set sha256 = "11046fb8d3348b296302dd939ace8af0a724042e8029c1b872d87fabc9f41684" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps -vv
   noarch: python
   entry_points:
