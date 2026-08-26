@@ -1,6 +1,6 @@
 {% set name = "google-auth-oauthlib" %}
-{% set version = "1.4.0" %}
-{% set sha256 = "18b5e28880eb8eba9065c436becdc0ee8e4b59117a73a510679c82f70cd363d2" %}
+{% set version = "1.4.1" %}
+{% set sha256 = "1a83f5f2a8421dedadaa3caf25b3a710dddf85a33a63144be41c2fc79174b106" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
