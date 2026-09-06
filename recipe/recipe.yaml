@@ -12,12 +12,11 @@ package:
 source:
   url: https://files.pythonhosted.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
   sha256: ${{ sha256 }}
-  file_name: ${{ name }}-${{ version }}.tar.gz
 
 build:
   number: 1
   noarch: python
-  script: ${{ PYTHON }} -m pip install . --no-deps -vv
+  script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   python:
     entry_points:
       - google-oauthlib-tool = google_auth_oauthlib.tool.__main__:main
@@ -38,7 +37,9 @@ tests:
       imports:
         - google_auth_oauthlib
       pip_check: true
-      python_version: ${{ python_min }}
+      python_version:
+        - ${{ python_min }}
+        - "*"
   - requirements:
       run:
         - python ${{ python_min }}.*
